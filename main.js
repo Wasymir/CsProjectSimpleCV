@@ -19,7 +19,7 @@ $(document).ready(function () {
                 if ($(this).is(":visible" )) {
                     lis.each(function (i) {
                         console.log(this);
-                        $(this).delay(300 * i).slideDown(500);
+                        $(this).delay(100 * i).slideDown(200);
                     });
                 } else {
                     lis.hide();

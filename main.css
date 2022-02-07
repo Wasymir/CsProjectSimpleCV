@@ -27,11 +27,22 @@ hr {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: block;
     border-radius: 100%;
-'
+
+
 }
+
+#ProfilePicture:hover {
+    border-color: #ff2a6d;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 
 #Name {
     font-family: 'Permanent Marker', cursive;
@@ -48,13 +59,20 @@ hr {
 .nav_icon_link {
     font-size: 10vw;
     color: #005678;
-    transition: color 0.5s ease;
+    transition: all 0.5s ease;
     display: block;
 
+
 }
+
+.nav_icon_link:hover {
+    font-size: 11vw;
+}
+
 .nav_icon_link:hover {
     color: #ff2a6d;
 }
+
 main {
     flex: 70%;
 }
@@ -77,6 +95,7 @@ main {
     text-align: center
 
 }
+
 .collapse {
     border-style: solid;
     border-width: 3px;
@@ -95,6 +114,7 @@ main {
     margin-bottom: 5px;
 
 }
+
 .skill_level {
     position: relative;
     background-color: #ff2a6d;
@@ -134,4 +154,27 @@ main {
     border-style: solid;
     border-width: 3px;
     border-radius: 15%;
+}
+
+footer {
+    background-color: #ff2a6d;
+    display: flex;
+    height: fit-content;
+    font-size: 30px;
+
+    justify-content: center;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#Source {
+    text-decoration: none;
+    color: #05d9e8;
+    font-weight: bolder;
+}
+#Source:hover {
+    text-decoration: underline;
+
 }
