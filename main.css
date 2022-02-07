@@ -1,0 +1,113 @@
+body {
+    background-color: #01012b;
+    font-family: 'Orbitron', sans-serif;
+    color: #05d9e8;
+    display: flex;
+}
+
+nav {
+    flex: 30%;
+    border-style: solid;
+    border-color: #ff2a6d;
+    border-width: 3px;
+    background-color: #01012b;
+    text-align: center;
+    margin: 10px;
+
+
+}
+
+hr {
+    border-color: #ff2a6d;
+    border-width: 3px;
+}
+
+#ProfilePicture {
+    width: 25vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    border-radius: 100%;
+'
+}
+
+#Name {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: #d1f7ff;
+
+}
+
+.nav_header {
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+}
+
+.nav_icon_link {
+    font-size: 10vw;
+    color: #005678;
+    transition: color 0.5s ease;
+    display: block;
+
+}
+.nav_icon_link:hover {
+    color: #ff2a6d;
+}
+main {
+    flex: 70%;
+}
+
+.dropdown {
+    margin: 10px;
+
+}
+
+.toggle {
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #005678;
+    font-family: 'Monoton', cursive;
+    border-color: #ff2a6d;
+    color: #ff2a6d;
+    display: flex;
+    text-align: center
+
+}
+.collapse {
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    font-size: 20px;
+    border-color: #ff2a6d;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skill_bar {
+    height: 20px;
+    width: 80%;
+    background-color: white;
+    margin-bottom: 5px;
+
+}
+.skill_level {
+    position: relative;
+    background-color: #ff2a6d;
+    height: 20px;
+    z-index: 1;
+}
+
+.list_img {
+    width: 30%;
+    height: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ff2a6d;
+    border-radius: 15%;
+    margin: 10px;
+}
